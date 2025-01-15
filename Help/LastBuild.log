@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.15.0" projectFile="D:\repos\ase-demo-assignment-Mahima232\Documentation.shfbproj" started="1/15/2025 11:48:50 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.12.15.0" projectFile="D:\repos\ase-demo-assignment-Mahima232\Documentation.shfbproj" started="1/15/2025 3:50:07 PM">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -29,14 +29,14 @@ Generating shared content files (en-US, English (United States))...
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0161
+    Last step completed in 00:00:00.0242
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-f8fe2662-0bc1-4c5e-8674-bc8df91652a6.proj]
-Build started 1/15/2025 11:49:00 AM.
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-5b80037b-44ca-4b14-8343-85bad2a4db2b.proj]
+Build started 1/15/2025 3:50:08 PM.
 
-Project &quot;D:\repos\ase-demo-assignment-Mahima232\Help\Working\GenerateRefInfo-f8fe2662-0bc1-4c5e-8674-bc8df91652a6.proj&quot; on node 1 (default targets).
+Project &quot;D:\repos\ase-demo-assignment-Mahima232\Help\Working\GenerateRefInfo-5b80037b-44ca-4b14-8343-85bad2a4db2b.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -61,24 +61,24 @@ GenerateRefInfo:
   Wrote information on 1 namespaces, 20 types, and 73 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;D:\repos\ase-demo-assignment-Mahima232\Help\Working\GenerateRefInfo-f8fe2662-0bc1-4c5e-8674-bc8df91652a6.proj&quot; (default targets).
-    Last step completed in 00:00:00.8873
+Done Building Project &quot;D:\repos\ase-demo-assignment-Mahima232\Help\Working\GenerateRefInfo-5b80037b-44ca-4b14-8343-85bad2a4db2b.proj&quot; (default targets).
+    Last step completed in 00:00:00.9738
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.2028
+    Last step completed in 00:00:00.1948
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.1503
+    Last step completed in 00:00:00.1748
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.1363
+    Last step completed in 00:00:00.1482
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0393
+    Last step completed in 00:00:00.0502
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -87,27 +87,27 @@ No additional content to copy
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0081
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0554
+    Last step completed in 00:00:00.0599
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.3957
+    Last step completed in 00:00:00.2278
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0111
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 D:\repos\ase-demo-assignment-Mahima232\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0313
+    Last step completed in 00:00:00.0265
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -128,6 +128,7 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:ASEproject] Unknown ref
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:ASEproject] Unknown reference link target &#39;T:BOOSE.StoredProgram&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:ASEproject] Unknown reference link target &#39;T:BOOSE.While&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:ASEproject] Unknown reference link target &#39;T:BOOSE.While&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [N:ASEproject] Unknown reference link target &#39;T:BOOSE.CommandTwoParameters&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppArray] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppArray] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppArray] Unknown reference link target &#39;T:BOOSE.Array&#39;.
@@ -330,7 +331,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.ge
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.MoveTo(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.MoveTo(System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ASEproject.AppCanvas.PenColour] Unknown reference link target &#39;P:BOOSE.ICanvas.PenColour&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [E:ASEproject.AppCanvas.PenPositionChanged] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)] Unknown reference link target &#39;M:BOOSE.ICanvas.Rect(System.Int32,System.Int32,System.Boolean)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.Reset] Unknown reference link target &#39;M:BOOSE.ICanvas.Reset&#39;.
@@ -340,14 +340,14 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.Se
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.Tri(System.Int32,System.Int32)] Unknown reference link target &#39;M:BOOSE.ICanvas.Tri(System.Int32,System.Int32)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.Tri(System.Int32,System.Int32)] Unknown reference link target &#39;T:BOOSE.CanvasException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCanvas.WriteText(System.String)] Unknown reference link target &#39;M:BOOSE.ICanvas.WriteText(System.String)&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [F:ASEproject.AppCanvas.xCanvasSize] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ASEproject.AppCanvas.Xpos] Unknown reference link target &#39;P:BOOSE.ICanvas.Xpos&#39;.
-SHFB: Warning BE0066: ShowMissingComponent: [F:ASEproject.AppCanvas.yCanvasSize] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:ASEproject.AppCanvas.Ypos] Unknown reference link target &#39;P:BOOSE.ICanvas.Ypos&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppCommandFactory] Unknown reference link target &#39;T:BOOSE.CommandFactory&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppCommandFactory] Unknown reference link target &#39;T:BOOSE.ICommandFactory&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppCommandFactory] Unknown reference link target &#39;M:BOOSE.CommandFactory.MakeCommand(System.String)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Methods.T:ASEproject.AppCommandFactory] Unknown reference link target &#39;M:BOOSE.CommandFactory.MakeCommand(System.String)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCommandFactory.MakeCommand(System.String)] Unknown reference link target &#39;T:BOOSE.ICommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCommandFactory.MakeCommand(System.String)] Unknown reference link target &#39;M:BOOSE.ICommandFactory.MakeCommand(System.String)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppCommandFactory.MakeCommand(System.String)] Unknown reference link target &#39;M:BOOSE.ICommandFactory.MakeCommand(System.String)&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.Else&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.Command&#39;.
@@ -356,8 +356,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unk
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.ConditionalCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.CompoundCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.Else&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;!:ReduceRestrictions&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Invalid reference link target &#39;!:ReduceRestrictions&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;P:BOOSE.Boolean.BoolValue&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.Boolean&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppElse] Unknown reference link target &#39;P:BOOSE.ConditionalCommand.Condition&#39;.
@@ -496,8 +494,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppEl
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppElse] Unknown reference link target &#39;F:BOOSE.Evaluation.varName&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppElse] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppElse.#ctor] Unknown reference link target &#39;!:ReduceRestrictions&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppElse.#ctor] Invalid reference link target &#39;!:ReduceRestrictions&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.End&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
@@ -505,8 +501,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unkn
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.ConditionalCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.CompoundCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.End&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;!:ReduceRestrictions&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Invalid reference link target &#39;!:ReduceRestrictions&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;P:BOOSE.Boolean.BoolValue&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.Boolean&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppEnd] Unknown reference link target &#39;P:BOOSE.ConditionalCommand.Condition&#39;.
@@ -641,8 +635,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppEn
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppEnd] Unknown reference link target &#39;F:BOOSE.Evaluation.varName&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppEnd] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppEnd.#ctor] Unknown reference link target &#39;!:ReduceRestrictions&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppEnd.#ctor] Invalid reference link target &#39;!:ReduceRestrictions&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppFor] Unknown reference link target &#39;T:BOOSE.For&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppFor] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppFor] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
@@ -798,8 +790,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unkno
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;T:BOOSE.ConditionalCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;T:BOOSE.CompoundCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;T:BOOSE.If&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;!:ReduceRestrictions&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Invalid reference link target &#39;!:ReduceRestrictions&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;P:BOOSE.Boolean.BoolValue&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;T:BOOSE.Boolean&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppIf] Unknown reference link target &#39;P:BOOSE.ConditionalCommand.Condition&#39;.
@@ -934,8 +924,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppIf
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppIf] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppIf] Unknown reference link target &#39;F:BOOSE.Evaluation.varName&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppIf] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppIf.#ctor] Unknown reference link target &#39;!:ReduceRestrictions&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppIf.#ctor] Invalid reference link target &#39;!:ReduceRestrictions&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppInt] Unknown reference link target &#39;T:BOOSE.Int&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppInt] Unknown reference link target &#39;T:BOOSE.ICommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppInt] Unknown reference link target &#39;T:BOOSE.Command&#39;.
@@ -1691,6 +1679,7 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppRe
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.AppReal] Unknown reference link target &#39;T:BOOSE.Evaluation&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppStoredProgram] Unknown reference link target &#39;T:BOOSE.StoredProgram&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppStoredProgram] Unknown reference link target &#39;T:BOOSE.StoredProgram&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppStoredProgram] Unknown reference link target &#39;T:BOOSE.IStoredProgram&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppStoredProgram] Unknown reference link target &#39;P:BOOSE.StoredProgram.PC&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppStoredProgram] Unknown reference link target &#39;T:BOOSE.StoredProgram&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppStoredProgram] Unknown reference link target &#39;M:BOOSE.StoredProgram.Add(BOOSE.Command)&#39;.
@@ -1789,6 +1778,7 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredPro
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredProgram.Pop] Unknown reference link target &#39;T:BOOSE.ConditionalCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredProgram.Pop] Unknown reference link target &#39;T:BOOSE.StoredProgramException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredProgram.Push(BOOSE.ConditionalCommand)] Unknown reference link target &#39;T:BOOSE.ConditionalCommand&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredProgram.Run] Unknown reference link target &#39;M:BOOSE.IStoredProgram.Run&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredProgram.Run] Unknown reference link target &#39;M:BOOSE.IStoredProgram.Run&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.AppStoredProgram.Run] Unknown reference link target &#39;T:BOOSE.StoredProgramException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.AppWhile] Unknown reference link target &#39;T:BOOSE.While&#39;.
@@ -2105,6 +2095,7 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Fields.T:ASEproject.Reset
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.Reset.#ctor(BOOSE.Canvas)] Unknown reference link target &#39;T:BOOSE.Canvas&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.Reset.CheckParameters(System.String[])] Unknown reference link target &#39;M:BOOSE.ICommand.CheckParameters(System.String[])&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.Reset.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.Tri] Unknown reference link target &#39;T:BOOSE.CommandTwoParameters&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.Tri] Unknown reference link target &#39;T:BOOSE.Command&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.Tri] Unknown reference link target &#39;T:BOOSE.CanvasCommand&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ASEproject.Tri] Unknown reference link target &#39;T:BOOSE.CommandOneParameter&#39;.
@@ -2289,12 +2280,12 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.Write.CheckP
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.Write.CheckParameters(System.String[])] Unknown reference link target &#39;T:BOOSE.CommandException&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:ASEproject.Write.Execute] Unknown reference link target &#39;M:BOOSE.ICommand.Execute&#39;.
 Processed 156 topic(s)
-2173 warning(s)
+2164 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:07.6359
+</plugIn>    Last step completed in 00:00:06.4125
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2330,26 +2321,26 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; D:\repos\ase-demo-assignment-Mahima232\Help\Working\Output\Website\SearchHelp.inc.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; D:\repos\ase-demo-assignment-Mahima232\Help\Working\Output\Website\SearchHelp.php
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; D:\repos\ase-demo-assignment-Mahima232\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.3245
+    Last step completed in 00:00:00.0943
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.3555
+    Last step completed in 00:00:00.4101
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 266 files for the website content
-    Last step completed in 00:00:00.2601
+    Last step completed in 00:00:00.2600
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0421
+    Last step completed in 00:00:00.0426
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/15/2025 11:49:10 AM.  Total time: 00:00:19.4170
+Build completed successfully at 1/15/2025 3:50:17 PM.  Total time: 00:00:10.3371
 
 </buildStep>
 </shfbBuild>
